@@ -1,0 +1,20 @@
+#navBar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu div {
+    margin: 0 20px;
+}
+
+#search img {
+    margin-right: 5px;
+}
