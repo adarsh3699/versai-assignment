@@ -1,0 +1,55 @@
+.sectionTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.sectionTitleText {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.sectionTitleBorder {
+    margin-top: 8px;
+    width: 48px;
+    height: 3px;
+    left: 152px;
+    top: 1626px;
+    
+    background: #0259EB;
+    border-radius: 16px;
+}
+
+.viewAllBtn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E5C558;
+}
+
+.paginationContent {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255 ,255 ,255 , 0.5);
+}
+
+.leftArrow {
+    margin: 0px 21px 0px 26px;
+}
+
+.activePage {
+    color: rgba(255 ,255 ,255 , 0.8);
+}
+
+@media screen and (max-width:800px) {
+    .sectionTitleText {
+        font-size: 20px;
+    }
+}

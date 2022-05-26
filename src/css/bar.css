@@ -5,16 +5,38 @@
     justify-content: space-between;
 }
 
-#menu {
+#webMenu {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#menu div {
+#webMenu div {
+    display: flex;
+    align-items: center;
     margin: 0 20px;
 }
 
 #search img {
     margin-right: 5px;
+}
+
+#mobileMenu {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    #webMenu {
+       display: none;
+    }
+
+    #mobileMenu {
+        display: flex;
+        align-items: center;
+    }
+
+    #cartIcon {
+       margin: 0px 22px 0px 22px;
+       height: 28px;
+    }
 }

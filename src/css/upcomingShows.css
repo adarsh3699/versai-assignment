@@ -1,0 +1,80 @@
+#artists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.artistItem {
+    background: #111229;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    box-shadow: 8px -8px 0px 1px #301A68;
+    margin: 0 16px;
+    margin-top: 10px;
+}
+
+.artists div :first-child {
+    margin-left: 802px;
+    background-color: red;
+    padding: 50px;
+}
+
+.artistImg {
+    height: 220px;
+}
+
+.aboutArtists {
+    margin: 16px;
+}
+
+.art {
+    width: fit-content;
+    color: #682F26;
+    font-size: 12px;
+    padding: 1px 5px;
+    background: #E5C558;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+.artistsName {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moreInfo {
+    display: flex;
+    align-items: center;
+    color: #0259EB;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.moreInfo img {
+    margin-left: 10px;
+}
+
+.unionImg {
+    border-left: rgba(255, 255, 255,  ) 1px solid;
+    padding-left: 20px;
+}
+
+.unionImg :hover {
+    background-color:  #2A2E3B;
+
+}
+
+@media screen and (max-width: 800px) {
+    .artistImg {
+        height: 220px;
+        
+    }
+}

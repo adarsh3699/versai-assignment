@@ -14,14 +14,12 @@ code {
     monospace;
 }
 
-#backgroundImg {
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
 #main {
   padding: 0 120px;
+}
+
+@media screen and (max-width:800px) {
+  #main {
+    padding: 0 16px;
+  }  
 }

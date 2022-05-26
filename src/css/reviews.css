@@ -1,0 +1,79 @@
+#reviews {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.reviewItem {
+    min-width: 360px;
+    max-width: 360px;
+    max-height: 500px;
+    margin: 0px 9px;
+    margin-top: 10px;
+    background: #0A0B1A;
+    border: 2px solid #E5AF56;
+    border-radius: 16px;
+    padding: 32px 0px 40px 0px;
+    position: relative;
+    box-shadow: 8px -8px 0px 1px rgba(39,108,115,0.82);
+}
+
+.reviewUserInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-left: 24px;
+}
+
+.reviewUserImg {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+.reviewUserName {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.reviewCountry {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #E5C558;
+}
+
+.countryFlag {
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+}
+
+.reviewText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    max-width: 318px;
+    min-width: 318px;
+    margin-left: 24px;
+}
+
+@media screen and (max-width:800px) {
+    .reviewItem {
+        min-width: 328px;
+        max-width: 328px;
+    }
+
+    .reviewText {
+        max-width: 294px;
+        min-width: 294px;
+    }
+}
